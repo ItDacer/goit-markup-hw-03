@@ -59,8 +59,10 @@ body {
 .logo-end {
     color:var(--color-team)
 }
-.info {
-    font-style: normal
+
+.nav-list {
+    display: flex;
+    gap: 40px;
 }
 .nav-link {
     color: var(--color-kek);
@@ -68,8 +70,6 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    gap: 40px;
     padding: 24px 0;
 }
 .nav-link:focus {
@@ -78,9 +78,34 @@ body {
  .nav-link:hover {
     color: var(--color-active-kek);
 }
+.info {
+    font-style: normal;
+}
+
+.info-list {
+    display: flex;
+    gap: 40px;
+}
+
+.inf {
+    color: var(--color-kekl);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.inf:focus {
+    color: var(--color-active-kek);
+}
+
+.inf:hover {
+    color: var(--color-active-kek);
+}
 /* ПЕРВАЯ СЕКЦИЯ */
 .sone {
     background-color:var(--color-kek);
+    padding: 188px 0;
 }
 .h-one {
     color:var(--color-main);
@@ -89,30 +114,22 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-}
-.inf {
-    color:var(--color-kekl);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.inf:focus {
-    color:var(--color-active-kek);
-}
-.inf:hover {
-    color: var(--color-active-kek);
+    max-width: 496px;
 }
 /*КНОПКА*/
 .button {
     color:var(--color-main);
     background-color:var(--color-button);
-    border: 0;
+    border: none;
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 .button:focus {
     background-color:var(--color-active-kek);
