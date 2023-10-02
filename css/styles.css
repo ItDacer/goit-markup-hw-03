@@ -6,12 +6,17 @@
     --color-main:#FFFFFF;
     --c-bgc-light: #FFF;
     --color-team:#F4F4FD;
+    --color-head:#e7e9fc
 }
+/* ТЕГИ */
 a {
     text-decoration: none;
 }
 ul {
     list-style-type: none;
+}
+img {
+    display: block;
 }
 button {
     font-family: inherit;
@@ -20,6 +25,22 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--c-bgc-light);
     color: var(--color-kekl);
+}
+/* БОШКА */
+.header {
+    border-bottom: 1px solid var(--color-head);
+}
+.contain {
+    display: flex;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 /* ЛОГОТИП И ССЫЛКИ */
 .logo {
@@ -30,6 +51,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
 }
 .logo-accent {
     color:var(--color-kek);
@@ -46,6 +68,9 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 .nav-link:focus {
     color: var(--color-active-kek);
