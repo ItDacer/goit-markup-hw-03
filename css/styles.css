@@ -155,7 +155,7 @@ body {
     gap: 24px;
     display: flex;
 }
-.p-li {
+.peli {
     width: calc((100% - 72px) / 4);
 }
 .kings {
