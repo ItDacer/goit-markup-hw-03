@@ -81,14 +81,16 @@ body {
 .info {
     font-style: normal;
 }
+.address-list {
+    display: flex;
+    gap: 40px;
+}
 .inf {
     color: var(--color-kekl);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    gap: 40px;
 }
 
 .inf:focus {
@@ -134,9 +136,8 @@ body {
     background-color:var(--color-active-kek);
 }
 /* ВТОРАЯ СЕКЦИЯ */
-.visually-hidden
 .stwo {
-    padding: 120px 0;
+    padding: 120px 0 120px
 }
 .visually-hidden {
     position: absolute;
@@ -151,7 +152,11 @@ body {
     overflow: hidden;
 }
 .main-p {
-
+    gap: 24px;
+    display: flex;
+}
+.p-li {
+    width: calc((100% - 72px)/4);
 }
 .kings {
     color:var(--color-kek);
@@ -159,6 +164,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .narratives {
     color:var(--color-kekl);
