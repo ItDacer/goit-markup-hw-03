@@ -80,13 +80,9 @@ body {
 }
 .info {
     font-style: normal;
-}
-
-.info-list {
     display: flex;
     gap: 40px;
 }
-
 .inf {
     color: var(--color-kekl);
     font-size: 16px;
@@ -137,7 +133,11 @@ body {
 .button:hover {
     background-color:var(--color-active-kek);
 }
-/* НОТАЦИИ */
+/* ВТОРАЯ СЕКЦИЯ */
+.visually-hidden
+.stwo {
+    padding: 120px 0
+}
 .kings {
     color:var(--color-kek);
     font-weight: 500;
