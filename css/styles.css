@@ -136,9 +136,6 @@ body {
     background-color:var(--color-active-kek);
 }
 /* ВТОРАЯ СЕКЦИЯ */
-.stwo {
-    padding: 120px 0 120px
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -150,6 +147,9 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.stwo {
+    padding: 120px 0 120px
 }
 .main-p {
     gap: 24px;
