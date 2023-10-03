@@ -51,13 +51,15 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-accent {
     color:var(--color-kek);
 }
 .logo-end {
-    color:var(--color-team)
+    color:var(--color-team);
 }
 /* ССЫЛКИ */
 .nav-list {
@@ -178,7 +180,7 @@ body {
 /* ТРЕТЬЯ СЕКЦИЯ */
 .sthree {
     background-color:var(--color-team);
-    padding: 120px 0
+    padding: 120px 0;
 }
 /* КОМАНДА */
 .ourteam {
@@ -199,22 +201,48 @@ body {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
+.card {
+    padding: 32px 0;
+}
 .name {
     color:var(--color-kek);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .prof {
     color:var(--color-kekl);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
-/* ПОРТФОЛИО */
+/* ПОРТФОЛИО И ЧЕТВЁРТАЯ СЕКЦИЯ */
+.sfour {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfol-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfol-number {
+    width: calc((100% - 48px) / 3);
+}
+.portfol-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 .portfol {
     color:var(--color-kek);
+    margin-bottom: 72px;
 }
 .app {
     color:var(--color-kek);
@@ -231,10 +259,11 @@ body {
 /* КОНЕЦ */
 .foot {
     background-color:var(--color-kek);
+    padding: 100px 0;
 }
 .paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--color-team)
+    color:var(--color-team);
+    max-width: 264px;
 }
-/* БОКСЁРЫ */
