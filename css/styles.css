@@ -173,8 +173,10 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em
 }
+/* ТРЕТЬЯ СЕКЦИЯ */
 .sthree {
     background-color:var(--color-team);
+    padding: 120px 0
 }
 /* КОМАНДА */
 .ourteam {
@@ -184,9 +186,16 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.team {
+    display: flex;
+    gap: 24px;
 }
 .team-list {
     background-color:var(--color-main);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .name {
     color:var(--color-kek);
