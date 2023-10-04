@@ -27,6 +27,7 @@ body {
     background-color: var(--c-bgc-light);
     color: var(--color-kekl);
 }
+ul,
 p,
 h1,
 h2,
@@ -42,6 +43,7 @@ h6 {
 }
 .contain {
     display: flex;
+    justify-content: space-between;
 }
 .container {
     width: 1158px;
@@ -63,7 +65,6 @@ h6 {
     text-transform: uppercase;
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 .logo-accent {
     color:var(--color-kek);
@@ -78,6 +79,7 @@ h6 {
 }
 .nav-link {
     color: var(--color-kek);
+    display: block;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -99,11 +101,13 @@ h6 {
     gap: 40px;
 }
 .inf {
+    display: flex;
     color: var(--color-kekl);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .inf:focus {
@@ -123,9 +127,11 @@ h6 {
     background-color: var(--color-kek);
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 /*КНОПКА*/
 .button {
@@ -141,6 +147,8 @@ h6 {
     min-width: 169px;
     height: 56px;
     border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
 }
 .button:focus {
     background-color:var(--color-active-kek);
@@ -248,11 +256,15 @@ h6 {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .portfol {
     color:var(--color-kek);
     margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .app {
     color:var(--color-kek);
@@ -260,7 +272,7 @@ h6 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    margin: 8px;
 }
 .mark {
     color: var(--color-kekl);
@@ -271,6 +283,17 @@ h6 {
 .foot {
     background-color:var(--color-kek);
     padding: 100px 0;
+}
+.logo-foot {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-button);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: inline-block;
 }
 .paragraph {
     line-height: 1.5;
